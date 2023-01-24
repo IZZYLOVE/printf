@@ -120,8 +120,8 @@ int write_pointer(char buffer[], int ind, int length,
 		int width, int flags, char padd, char extra_c, int padd_start);
 
 
-int write_unsgnd(int is_negative, int ind,
-char buffer[], int flags, int width, int precision, int size);
+int write_unsgnd(int is_negative, int ind, char buffer[],
+		int flags, int width, int precision, int size);
 
 
 /****************** UTILS ******************/
@@ -135,5 +135,4 @@ long int convert_size_unsgnd(unsigned long int num, int size);
 
 
 #endif /* MAIN_H */
-
 
