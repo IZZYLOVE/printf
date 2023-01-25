@@ -53,7 +53,6 @@ int is_digit(char c)
 	return (0);
 }
 
-
 /**
  * convert_size_number - Casts a number to the specified size
  * @num: Number to be casted.
